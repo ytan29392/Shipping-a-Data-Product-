@@ -1,0 +1,33 @@
+# Environment
+python-dotenv
+
+# Telegram Scraping
+telethon
+
+# Database
+psycopg2-binary
+sqlalchemy
+
+# Data Transformation
+dbt-core
+dbt-postgres
+
+# Object Detection
+ultralytics
+opencv-python
+
+# API
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+# Orchestration
+dagster
+dagster-webserver
+
+# Utilities
+pandas
+requests
+tqdm
+aiofiles
