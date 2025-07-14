@@ -1,0 +1,51 @@
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+*.code-workspace
+
+# Python cache and compiled files
+__pycache__/
+
+# Environment files
+*.env
+
+# Log files
+*.log
+
+# Python packaging/build
+*.egg-info/
+build/
+dist/
+
+# Data files and folders (raw/interim/processed outputs)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.json
+
+# PostgreSQL data
+pgdata/
+
+# Docker overrides
+docker-compose.override.yml
+
+# DBT (Data Build Tool) artifacts
+dbt/**/target/
+dbt/**/dbt_packages/
+dbt_profiles.yml
+
+# Testing and coverage outputs
+.pytest_cache/
+.cache/
+htmlcov/
+coverage.xml
+*.cover
+
+# Dagster local storage
+dagster_home/
