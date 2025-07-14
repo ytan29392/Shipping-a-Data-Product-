@@ -1,0 +1,12 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost           # or 'db' if running inside Docker
+      user: user                # from your .env
+      password: pass            # from your .env
+      port: 5432
+      dbname: telegram          # your Postgres database name
+      schema: raw               # default schema for models (can override in dbt_project.yml)
+      threads: 4

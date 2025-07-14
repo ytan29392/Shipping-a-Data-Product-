@@ -1,0 +1,23 @@
+name: my_project
+version: '1.0'
+config-version: 2
+
+profile: my_project
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
+
+models:
+  my_project:
+    staging:
+      +schema: staging
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table
